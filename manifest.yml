@@ -1,11 +1,11 @@
   applications:
   - name: onlinecourse
     routes:
-      - route: petar-enev.eu-gb.mybluemix.net
+      - route: mayluciano204.eu-gb.mybluemix.net
     memory: 128M
     buildpack: python_buildpack
   - name: onlinecourse-nginx
     routes:
-      - route: petar-enev.eu-gb.mybluemix.net/static
+      - route: mayluciano204.eu-gb.mybluemix.net/static
     memory: 128M
     buildpack: staticfile_buildpack
